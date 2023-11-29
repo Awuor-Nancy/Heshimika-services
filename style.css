@@ -23,6 +23,28 @@
 	color: var(--favfang);
 }
 
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: #fff;
+    background: #fff;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+	background: #fff;
+}
+}
+
 .btn {
 	background-color:  var(--maingray);
 	text-transform: uppercase;
@@ -75,7 +97,6 @@
 .jumbotron .display-4 span {
 	font-weight: 500;
 }
-
 
 /* Info Panel */
 .info-panel {
